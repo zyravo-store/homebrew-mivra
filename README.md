@@ -1,22 +1,11 @@
 # Mivra Homebrew Tap
 
-Homebrew distribution for [Mivra](https://mivra.zyravo.store), a desktop workspace for clipboard history, notes, screenshots, OCR and translation.
-
-## Availability
-
-The cask will be added after the first verified public macOS release. Installation is not available from this tap yet.
-
-Once published, Apple Silicon and Intel Macs will use the matching signed and notarized DMG, with a separate SHA-256 for each architecture:
+Install [Mivra](https://mivra.zyravo.store) on Apple Silicon or Intel macOS with Homebrew:
 
 ```sh
 brew install --cask zyravo-store/mivra/mivra
 ```
 
-## Links
+Packages are signed, notarized and verified. Apple Silicon uses the arm64 DMG; Intel uses the Universal DMG. Downloads and matching SHA-256 values come from the [public release](https://github.com/zyravo-store/mivra/releases/tag/v1.0.0).
 
-- [Official website](https://mivra.zyravo.store)
-- [Downloads and platforms](https://mivra.zyravo.store/download/)
-- [Public releases](https://github.com/zyravo-store/mivra/releases)
-- [Support](https://mivra.zyravo.store/docs/)
-
-A normal uninstall preserves local user data. Review Homebrew's explicit `--zap` operation before removing application data.
+A normal uninstall preserves local user data. Review the explicit `--zap` operation before removing application data.
