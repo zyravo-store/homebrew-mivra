@@ -1,14 +1,14 @@
 cask "mivra" do
-  version "1.0.0,26072401"
+  version "1.0.1,26203003"
 
   on_arm do
-    sha256 "64549d65b83f4873ce2ade1bcd0c39849f9713587daae9c8e859251ac439274c"
-    url "https://github.com/zyravo-store/mivra/releases/download/v1.0.0/Mivra_1.0.0_26072401_arm64.dmg"
+    sha256 "a73dccc1979ba7f45f6f3da26e4260055ae157a2b6d45ab7edfbd02a7aa3c055"
+    url "https://github.com/zyravo-store/mivra/releases/download/v1.0.1/Mivra_1.0.1_26203003_arm64.dmg"
   end
 
   on_intel do
-    sha256 "90589f6bcb16bc591bf265c5cdd548c984a07266ab9269b7127cb7b4f251161d"
-    url "https://github.com/zyravo-store/mivra/releases/download/v1.0.0/Mivra_1.0.0_26072401_universal.dmg"
+    sha256 "4e2b5ebe034396c74011beeabdfbfc6fc17a2d85764edc2b3d742723b65b07ec"
+    url "https://github.com/zyravo-store/mivra/releases/download/v1.0.1/Mivra_1.0.1_26203003_universal.dmg"
   end
 
   name "Mivra"
